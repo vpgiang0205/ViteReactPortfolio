@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(/src/assets/style.css);
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --base-font-size: 14px;
+  --base-transition: 0.15s cubic-bezier(0.47, 0, 0.745, 0.715);
+  --sm-screen: 425px;
+  --header-min-height: 62px;
+
+  -webkit-font-smoothing: antialiased;
+  --primary-color: #101626;
+  --secondary-color: #92d79a;
+  --grey-color: hsla(0, 0%, 100%, 0.3);
+  --line-grid-color: #191f2f;
+  --color-text: #fff;
+}
+
+body {
+  font: var(--base-font-size) / 1.57 Montserrat, Verdana, sans-serif;
+  background-color: var(--primary-color);
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+.sections__Title {
+  font-size: 44px;
+  font: 32px/1.12;
+  font-weight: 400;
+}

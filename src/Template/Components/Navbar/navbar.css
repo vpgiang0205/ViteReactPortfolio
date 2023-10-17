@@ -1,0 +1,32 @@
+.hover__Item {
+  padding: 16px 0;
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.16;
+  transition: all 0.2s ease-in;
+  transform: translateX(-30px);
+}
+
+.hover__Item::after {
+  content: " />";
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.hover__Item::before {
+  content: "< ";
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.hover__Item:hover {
+  transform: translateX(0px);
+}
+
+.hover__Item:hover::after {
+  opacity: 1;
+}
+
+.hover__Item:hover::before {
+  opacity: 1;
+}
