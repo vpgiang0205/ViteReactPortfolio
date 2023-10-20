@@ -1,2 +1,70 @@
-.cube {
+.cube-lg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  animation: moveCubeLg 100s linear infinite; /* Apply the animation */
 }
+
+.cube-md {
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: moveCubeMd 50s linear infinite;
+}
+
+.cube-md-2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: moveCubeMd2 50s linear infinite;
+}
+
+@keyframes moveCubeLg {
+  /* Define the keyframes for the animation */
+  0% {
+    right: 0;
+    bottom: 0;
+  }
+  50% {
+    right: 80%;
+    bottom: 70%;
+  }
+  100% {
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@keyframes moveCubeMd {
+  /* Define the keyframes for the animation */
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  50% {
+    left: 95%;
+    top: 95%;
+  }
+  100% {
+    right: 0;
+    top: 0;
+  }
+}
+
+
+@keyframes moveCubeMd2 {
+    /* Define the keyframes for the animation */
+    0% {
+      left: 0;
+      bottom: 0;
+    }
+    50% {
+      left: 35%;
+      top: 95%;
+    }
+    100% {
+      right: 0;
+      top: 0;
+    }
+  }
+  
