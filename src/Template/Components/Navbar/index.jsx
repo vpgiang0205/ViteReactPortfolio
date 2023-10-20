@@ -3,7 +3,7 @@ import './navbar.css';
 
 export default function Navbar() {
   return (
-    <nav className="h-screen p-7">
+    <nav className="h-screen justify-center flex flex-col">
       <ul>
         <li className="hover__Item">
           <Link to="/">

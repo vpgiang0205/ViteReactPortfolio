@@ -1,0 +1,9 @@
+.hover__ItemAuto::after {
+  content: " />";
+  color: var(--secondary-color);
+}
+
+.hover__ItemAuto::before {
+  content: "< ";
+  color: var(--secondary-color);
+}

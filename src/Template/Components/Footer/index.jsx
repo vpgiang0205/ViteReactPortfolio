@@ -1,7 +1,13 @@
 export default function Footer() {
   return (
     <div>
-      footer
+      {contactIcon()}
     </div>
   )
+}
+
+function contactIcon() {
+  return <>
+    asdasas
+  </>
 }
