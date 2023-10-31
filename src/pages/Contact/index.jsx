@@ -45,7 +45,7 @@ export default function Contact() {
           <input name="lastName" type="text" onChange={handleChange} className="w-1/2 p-2 contact__Input" placeholder="Last Name" />
         </div>
         <input name="email" type="email" className="w-full p-2 my-2 contact__Input" onChange={handleChange} placeholder="Email Address" />
-        <textarea name="message" onChange={handleChange} className="w-full p-2 contact__Input" placeholder="Message" />
+        <textarea name="message" rows={1} onChange={handleChange} className="w-full p-2 contact__Input" placeholder="Message" />
 
         <div className="text-center my-2">
           <button className="button__Primary border border-white text-white px-4 py-2" type="submit">

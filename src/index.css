@@ -52,3 +52,7 @@ body {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
+.section__piority {
+  z-index: 99;
+}
