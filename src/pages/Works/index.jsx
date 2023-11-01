@@ -8,8 +8,8 @@ export default function Works() {
 
   return (
     <div className='section__piority p-5'>
-      <div className="work-content flex">
-        <div className="work-info w-3/6">
+      <div className="work-content md:flex">
+        <div className="work-info md:w-3/6">
           {projects.projects
             .slice((currentPage - 1) * projectsPerPage, currentPage * projectsPerPage)
             .map((project, index) => (
@@ -29,7 +29,7 @@ export default function Works() {
             ))}
         </div>
 
-        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className="work__screen w-3/6">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" className="work__screen md:w-3/6 py-5">
           {projects.projects
             .slice((currentPage - 1) * projectsPerPage, currentPage * projectsPerPage)
             .map((project, index) => (

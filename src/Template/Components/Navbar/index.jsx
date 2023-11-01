@@ -1,10 +1,23 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import './navbar.css';
 
 export default function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <nav className="h-screen justify-center flex flex-col">
-      <ul>
+    <nav className="sm:fixed md:h-screen justify-center flex md:flex-col px-10">
+      <button
+        className="md:hidden text-white p-2"
+        onClick={toggleMenu}
+      >
+        {menuOpen ? "Close" : "Menu"}
+      </button>
+      <ul className={`${menuOpen ? "block" : "hidden"} md:block space-y-4`}>
         <li className="hover__Item">
           <Link to="/">
             About
@@ -30,5 +43,5 @@ export default function Navbar() {
         </li>
       </ul>
     </nav>
-  )
+  );
 }
