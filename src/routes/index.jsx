@@ -8,10 +8,6 @@ const routes = [
         nested: [
             {
                 path: "",
-                element: lazy(() => import("../pages/Home")),
-            },
-            {
-                path: "about",
                 element: lazy(() => import('../pages/About'))
             },
             {

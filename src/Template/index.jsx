@@ -7,8 +7,6 @@ import Footer from './Components/Footer';
 export default function Template() {
   return (
     <div className="template">
-      
-
       <div className="mx-auto w-10/12">
         <Header />
         <div className="flex">

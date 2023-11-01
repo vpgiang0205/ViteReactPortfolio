@@ -7,20 +7,13 @@ export default function Navbar() {
       <ul>
         <li className="hover__Item">
           <Link to="/">
-            Home
-            <span className="hover__Content"></span>
-          </Link>
-        </li>
-
-        <li className="hover__Item">
-          <Link to="/about">
             About
           </Link>
         </li>
 
         <li className="hover__Item">
           <Link to="/works">
-            Works
+            Projects
           </Link>
         </li>
 

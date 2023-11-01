@@ -2,23 +2,28 @@
   "projects": [
     {
       "Name": "Airbnb Project",
-      "Description": "The Airbnb Project is a service designed for travelers who want to find affordable accommodation options. It offers a selection of six popular cities for travelers to explore and provides real-time accommodation offers. Users can access detailed information about various accommodations, view them on a map, and use a user-friendly interface to make informed choices.choice.",
-      "Tech": "Restful API ,Auth, CRUD, LocalStorage, Reactjs (redux--toolkit, react-router-dom, aos...)"
+      "Description": "The Airbnb Project is a service designed for who want to find affordable accommodation options. Users can use a user-friendly interface to make informed choice.",
+      "Tech": "Restful API ,Auth, CRUD, LocalStorage, ReactJS (redux--toolkit, react-router-dom, aos)",
+      "ImageUrl": "https://portfolio-mu-ivory-58.vercel.app/assets/airbnbProjects-cc521296.jpeg",
+      "Github": ""
     },
     {
       "Name": "Movie",
       "Description": "The Movie Project description is not provided, but it appears to be a project related to movies. You can replace the placeholder description with specific details about this project.",
-      "Tech": "Restful API ,Auth, CRUD, LocalStorage, Reactjs (redux--toolkit, react-router-dom,...)"
+      "Tech": "Restful API ,Auth, CRUD, LocalStorage, ReactJS (redux--toolkit, react-router-dom,...)",
+      "ImageUrl": "https://portfolio-mu-ivory-58.vercel.app/assets/movieProject-e442fbb9.jpeg"
     },
     {
       "Name": "Restaurant",
       "Description": "The Restaurant Project is a fully responsive website for a restaurant. It features an elegant design and a user-friendly interface, and it is optimized for mobile devices. It provides customers with an accessible and enjoyable way to explore the restaurant's offerings.",
-      "Tech": "HTML, CSS, Bootstrap, jQuery, CSS Animation, Responsive"
+      "Tech": "HTML, CSS, Bootstrap, jQuery, CSS Animation, Responsive",
+      "ImageUrl": "https://react-portfolio-ochre-theta.vercel.app/static/media/1.da70e44d91c88ece61df.png"
     },
     {
       "Name": "SAMAR",
       "Description": "The SAMAR Project is known for its user-friendly and visually appealing design. It incorporates smooth animations that enhance the overall user experience. While the project's specific purpose is not detailed, its design and interactivity contribute to an engaging user experience.",
-      "Tech": "HTML, CSS, Bootstrap, jQuery, CSS Animation"
+      "Tech": "HTML, CSS, Bootstrap, jQuery, CSS Animation",
+      "ImageUrl": "https://react-portfolio-ochre-theta.vercel.app/static/media/5.c90ac185a085261953af.bmp"
     }
   ]
 }
