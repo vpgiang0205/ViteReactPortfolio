@@ -21,6 +21,7 @@
 
 .hover__Item:hover {
   transform: translateX(0px);
+  color: var(--secondary-color);
 }
 
 .hover__Item:hover::after {
@@ -29,4 +30,73 @@
 
 .hover__Item:hover::before {
   opacity: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.hover__Item {
+  padding: 16px 0;
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.16;
+  transition: all 0.2s ease-in;
+  transform: translateX(-30px);
+}
+
+.hover__Item::after {
+  content: " />";
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.hover__Item::before {
+  content: "< ";
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.hover__Item:hover {
+  transform: translateX(0px);
+}
+
+.hover__Item:hover::after {
+  opacity: 1;
+}
+
+.hover__Item:hover::before {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .navList {
+    justify-content: center;
+    z-index: 111;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    align-items: center;
+    transition: all 0.5s ease;
+    transform: translateX(160px);
+
+  }
+
+  .hover__Item {
+    transform: unset;
+    padding: 0;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+    margin: 5px; /* Adjust the margin as needed for spacing between items */
+  }
+
+  .hover__Item:hover {
+    opacity: 1;
+    transform: translateX(-10px);
+    color: var(--primary-color);
+  }
+
+  .navList:hover {
+    transform: translateX(0);
+  } 
 }

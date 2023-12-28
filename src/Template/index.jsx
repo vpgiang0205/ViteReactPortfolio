@@ -7,14 +7,14 @@ import Footer from './Components/Footer';
 export default function Template() {
   return (
     <div className="template">
-      <div className="mx-auto w-10/12">
+      <div className="mx-auto md:w-10/12">
         <Header />
-        <div className="flex">
-          <div className="w-2/12">
+        <div className="md:flex">
+          <div className="md:w-2/12">
             <Navbar />
           </div>
 
-          <div className="w-10/12">
+          <div className="md:w-10/12">
             <PageContent />
           </div>
         </div>

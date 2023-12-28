@@ -37,7 +37,7 @@ export default function Contact() {
 
   return (
     <section id="section__Contact">
-      <h1 className="sections__Title text-center">Want to work with me?</h1>
+      <h1 className="sections__Title text-center">Contact Me</h1>
 
       <form ref={form} onSubmit={handleSubmit}>
         <div className="flex gap-5">
