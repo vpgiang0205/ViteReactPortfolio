@@ -1,8 +1,8 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import './navbar.css';
 
 export default function Navbar() {
-
   return (
     <nav className={`navList  `}>
       <ul className={`md:flex md:h-screen justify-center flex-col`}>
