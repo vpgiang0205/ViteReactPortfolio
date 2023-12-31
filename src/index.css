@@ -16,6 +16,7 @@
   -webkit-text-size-adjust: 100%;
 
   --base-font-size: 14px;
+  --base-font-family: "Source Code Pro", monospace;
   --base-transition: 0.15s cubic-bezier(0.47, 0, 0.745, 0.715);
   --sm-screen: 425px;
   --header-min-height: 62px;
@@ -34,7 +35,7 @@ body {
   color: var(--color-text);
   min-height: 100vh;
   font-size: 20px;
-  overflow: hidden;
+  font-family: var(--base-font-family);
 }
 
 .sections__Title {
