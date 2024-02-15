@@ -8,6 +8,6 @@ export default function Footer() {
 
 function contactIcon() {
   return <>
-    asdasas
+    
   </>
 }
