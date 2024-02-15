@@ -9,7 +9,7 @@ export default function About() {
       I love creating user interfaces which are intuitive, convenient and beautiful. Of course,
         I am paying attention to performance and accessibility that I consider to be highly important.</p>
 
-      <Link className="nav-link" to="https://drive.usercontent.google.com/download?id=11XyCtJQH4i72DWajXF-_NddbcSXYILmj&export=download&authuser=0&confirm=t&uuid=9522124b-c534-42e1-aff0-85f4190f087e&at=APZUnTXE56OGsNmIHEMIHMAgNpsu:1697548122153">
+      <Link className="nav-link" to="https://export-download.canva.com/ApH1s/DAFZNbApH1s/586/0-7017026977893529239.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T201748Z&X-Amz-Expires=57040&X-Amz-Signature=94ee4bbf307b502f769ad16929e6fd000be0ec7dca78e53c28fafcb8fa76738b&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Vo%2520Phong%2520Giang.pdf.pdf&response-expires=Thu%2C%2015%20Feb%202024%2012%3A08%3A28%20GMT">
         Download CV
       </Link>
 
